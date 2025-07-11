@@ -1,0 +1,253 @@
+<html>
+<head>
+<title>my website</title>
+<style>
+*
+{
+font-family:monospace;
+font-size:20px;
+}
+body
+{
+margin:0;
+background-color:lightwhite;
+justify-content: center;    
+
+}
+header
+{
+height:100vh;
+background-color:#2196F3;
+color:white;
+display:flex;
+flex-direction:column;
+ justify-content: center; /* Center vertically */
+  align-items: center;     /* Center horizontally */
+  text-align: center;
+
+
+}
+.button
+{
+height:40px;
+width:140px;
+border:none;
+border-radius:20px;
+cursor:pointer;
+}
+.button:hover
+{
+background-color:grey;
+}
+img
+{
+height:250px;
+width:250px;
+}
+section
+{
+height:100vh;
+border:2px solid;
+margin:15px;
+border-radius:20px;
+
+display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center;     /* Center horizontally */
+  text-align: center;
+}
+
+ main h1
+{
+color:#2196F3;
+font-size:50px;
+}
+header h1
+{
+font-size:50px;
+}
+
+.submit
+{
+height:40px;
+width:140px;
+border:1px solid;
+border-radius:5px;
+cursor:pointer;
+background-color:#2196F3;
+color:white;
+
+}
+.submit:hover
+{
+background-color:lightgreen;
+}
+
+input{
+border-radius:5px;
+border:2px solid lightgrey;
+height:25px;
+margin:10px;
+
+
+}
+footer
+{
+height:200px;
+background-color:black;
+color:lightgrey;
+border:2px solid;
+border-radius:10px;
+}
+
+.fixedbutton
+{
+position:fixed;
+bottom:10px;
+right:10px;
+height:70px;
+width:70px;
+border:2px solid black;
+border-radius:70px;
+cursor:pointer;
+background-color:red;
+color:white;
+
+
+}
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+<header>
+
+
+ <h1>Welcome To My Portfolio</h1>
+<button class="button">About</button>
+<button  class="button">Skills</button>
+<button  class="button">Projects</button>
+<button  class="button">Contact</button>
+</header>
+<br>
+
+
+<main>
+
+<section>
+<div>
+<div>
+<h1> Sai Charishma Mannuru</h1>
+</div>
+<div>
+<img src="two.JPG" height=500 width=400>
+</div>
+</div>
+
+<div>
+<p> I am a passionate web developer with a focus on front-end technologies.</p>
+<p> I am currently pursuing my Btech in Aditya university Kakinada.</p>
+<p> I have learnt web development from online</p>
+<p> You can <b> Click here </b> to check out what I have learnt in HTM,CSS,JS.</p>
+</div>
+
+</section>
+
+
+
+
+<section>
+<div>
+<div>
+<h1> My Skills </h1>
+</div>
+
+<div>
+<ol>
+<li>Python Basics</li>
+<li>HTML Basics</li>
+<li>CSS basics</li>
+<li>JavaScript Basics</li>
+</ol>
+</div>
+</div>
+</section>
+
+
+
+
+<section>
+<div>
+<div>
+<h1> My Projects </h1>
+</div>
+<div>
+<table border="1">
+<tr>
+<th>Project</th>
+<th> Description</th>
+</tr>
+<tr>
+<td>  Portfolio Website</td>
+<td>I have built a Portfolio website by using HTML,CSS& JS</td>
+</tr>
+<tr>
+<td> Python Simple Calculator</td>
+<td> I have built a simple calculator in the course by code with swaroop</td>
+</tr>
+</table>
+</div>
+</div>
+</section>
+
+
+
+
+<section>
+<h1> Contact Me</h1>
+
+<p> Feel free to get in touch with me using the form below: </p>
+<form>
+<label> Name:</label>
+<input type="text"  id="Name" value=" "><br>
+<label> Email:</label>
+<input type="text"  id="Email" value=" "><br>
+
+<b>Choose your gender:</b>
+<input type="radio"  id="Male" value="Male">
+<label> Male:</label>
+<input type="radio"  id="Female" value="Female">
+<label> Female:</label><br>
+
+<b> select your intersets:</b>
+<input type="checkbox"  id="coding" value="coding">
+<label> coding:</label>
+<input type="checkbox"  id="reading" value="reading">
+<label> reading:</label>
+
+
+
+</form>
+
+
+<button class="submit">Submit</button>
+
+</section>
+</main>
+
+<button class="fixedbutton">TOP</button>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
